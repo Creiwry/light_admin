@@ -1,6 +1,6 @@
 $(document).ready(function () {
   if ($("#filters_sidebar_section").length !== 0) {
-    $('#active_admin_content .table_tools').append('<a id="toggleFilters" href="#" class=\'epon\'>Filtres</a>');
+    $('#active_admin_content .table_tools').append('<a id="toggleFilters" href="#" class=\'epon\'>Filters</a>');
   };
 
   if (!window.location.search.includes('Filter') && $('body').hasClass('index')) {
